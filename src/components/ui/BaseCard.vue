@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-xl bg-[#212426] shadow-md w-fit min-w-[250px] h-auto flex flex-col gap-[15px] p-[1vw] pb-[1vw]">
+  <div class="rounded-xl bg-[#212426] shadow-md w-full min-w-[250px] h-auto flex flex-col p-[2vw]">
     <slot />
   </div>
 </template>
