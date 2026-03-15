@@ -1,0 +1,85 @@
+{
+  "profile": {
+    "name": "Ahmet Özhan ÖZEN",
+    "role": "Backend Developer",
+    "links": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "cv": "Resume"
+    }
+  },
+  "summary": {
+    "title": "Summary",
+    "content": "Computer Engineering graduate with hands-on experience in backend development using ASP.NET Core and Python. Currently pursuing a master’s degree at Marmara University. Skilled in building web applications, automation systems, and database-driven solutions."
+  },
+  "education":{
+    "title":"Education",
+    "MS":{
+      "year": "2026 – Current",
+      "content": "Marmara University Computer Engineering (Master’s Degree)"
+    },
+    "BS":{
+      "year": "2021 – 2025",
+      "content": "Sakarya University Computer Engineering (Bachelor’s Degree)"
+    },
+    "HS":{
+      "year": "2017 – 2021",
+      "content": "Rize TOBB Science High School"
+    }
+  },
+  "jobExperience":{
+    "title": "Job Experience",
+    "sampa":{
+      "title": "IT Intern, Sampa Automotive (07.07.2025 – 04.08.2025)",
+      "content": "Developed an e-commerce web application using ASP.NET Core and MSSQL."
+    },
+    "cbi":{
+      "title": "IT Intern, Çayeli Bakır İşletmeleri (01.07.2024 – 29.07.2024)",
+      "content": "Participated in maintenance, installation, and improvement activities of network infrastructure."
+    }
+  },
+  "foreignLanguage":{
+    "title":"Foreign Language",
+    "english":"English C1 (EF SET English Certificate 64/100(C1 Advanced))"
+  },
+  "examsResults":{
+    "title":"Exams and Scores",
+    "ales": "ALES 2025/3 – 77,34",
+    "yds": "YDS 2025/2 (English) – 70"
+  },
+  "technicalSkills":{
+    "title":"Technical Skills",
+    "programmingLanguages": "Programming Languages",
+    "frameworks": "Frameworks",
+    "database": "Databases",
+    "web": "Web"
+  },
+  "projects":{
+    "title": "Projects",
+    "techs": "Technologies Used",
+    "findthem":{
+      "title": "FindThem",
+      "content": "IWeb-based solution that identifies users who do not follow back on Instagram.",
+      "techs": "HTML, CSS, JavaScript"
+    },
+    "sau_not":{
+      "sau_not_title": "SAU_NotumGirildiMi",
+      "content": "Periodically retrieves data from the university information system and sends automatic notifications to users via Telegram Bot API about exam and assignment grades.",
+      "techs": "Python, Telegram Bot API"
+    },
+    "sau_yemek":{
+      "title": "SAU_YemekteNeVar",
+      "content": "Fetches the daily menu via API calls and sends automatic notifications to users via Telegram Bot API.",
+      "techs": "Python, Telegram Bot API"
+    }
+  },
+  "sitemap": {
+    "summary": "Summary",
+    "education": "Education",
+    "jobExperience": "Job Experience",
+    "foreignLanguage": "Foreign Language",
+    "examsResults": "Exams and Results",
+    "technicalSkills": "Technical Skills",
+    "projects": "Projects"
+  }
+}

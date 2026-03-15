@@ -1,0 +1,86 @@
+{
+  "profile": {
+    "name": "Ahmet Özhan ÖZEN",
+    "role": "Backend Developer",
+    "links": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "cv": "Özgeçmiş"
+    }
+  },
+  "summary": {
+    "title": "Özet",
+    "content": "ASP.NET Core ve Python ile çeşitli backend ağırlıklı projeler geliştirmiş Backend Developer Bilgisayar Mühendisliği mezunu. Marmara Üniversitesi'nde yüksek lisans eğitimine devam etmektedir. Web uygulamaları, otomasyon sistemleri ve veritabanı çözümler üzerinde deneyimlidir."
+  },
+  "education":{
+    "title":"Eğitim",
+    "MS":{
+      "year": "2026 – Devam",
+      "content": "Marmara Üniversitesi Bilgisayar Mühendisliği (Yüksek Lisans)"
+    },
+    "BS":{
+      "year": "2021 – 2025",
+      "content": "Sakarya Üniversitesi Bilgisayar Mühendisliği (Lisans)"
+    },
+    "HS":{
+      "year": "2017 – 2021",
+      "content": "Rize TOBB Fen Lisesi"
+    }
+  },
+  "jobExperience":{
+    "title": "İş Deneyimi",
+    "sampa":{
+      "title": "BT Stajyeri, Sampa Otomotiv(07.07.2025 – 04.08.2025)",
+      "content": "ASP.NET Cıre ve MSSQL kullanarak e-ticaret web uygulaması geliştirdi."
+    },
+    "cbi":{
+      "title": "IT Stajyeri, Çayeli Bakır İşletmeleri(01.07.2024 – 29.07.2024)",
+      "content": "Network altyapısında bakım, kurulum ve iyileştirme çalışmalarında görev aldı."
+    }
+  },
+  "foreignLanguage":{
+    "title":"Yabancı Dil",
+    "english":"İngilizce C1 (EF SET English Certificate 64/100(C1 Advanced))"
+  },
+  "examsResults":{
+    "title":"Sınavlar ve Sonuçlar",
+    "ales": "ALES 2025/3 – 77,34",
+    "yds": "YDS 2025/2 (İngilizce) – 70"
+  },
+  "technicalSkills":{
+    "title":"Teknik Beceriler",
+    "programmingLanguages": "Programlama Dilleri",
+    "frameworks": "Framework'ler",
+    "database": "Veritabanı",
+    "web": "Web"
+  },
+  "projects":{
+    "title": "Projeler",
+    "techs": "Kullanılan Teknolojiler",
+    "findthem":{
+      "title": "FindThem",
+      "content": "Instagram'da geri takip etmeyen kişileri bulmaya yarayan web tabanlı çözüm.",
+      "techs": "HTML, CSS, JavaScript"
+    },
+    "sau_not":{
+      "title": "SAU_NotumGirildiMi",
+      "content": "Belirli periyotlar halinde OBS'ten veri çekerek sınav, ödev gibi puan girişlerini Telegram Bot API kullanarak kullanıcıya otomatik bildirim gönderir.",
+      "techs": "Python, Telegram Bot API"
+    },
+    "sau_yemek":{
+      "title": "SAU_YemekteNeVar",
+      "content": "Gündelik olarak o günkü menüyü API çağrısı yaparak çeker, Telegram Bot API kullanarak kullanıcıya otomatik bildirim gönderir.",
+      "techs": "Python, Telegram Bot API"
+    }
+    
+  },
+  "sitemap": {
+    "summary": "Özet",
+    "education": "Eğitim",
+    "jobExperience": "İş Deneyimi",
+    "foreignLanguage": "Yabancı Dil",
+    "examsResults": "Sınavlar ve Sonuçlar",
+    "technicalSkills": "Teknik Beceriler",
+    "projects": "Projeler"
+  }
+}
