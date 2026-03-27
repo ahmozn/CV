@@ -16,10 +16,7 @@ import ThemeSwitch from '../../ui/ThemeSwitch.vue';
       <div class="flex justify-between items-center px-2">
         <h1 class="text-3xl font-bold text-white tracking-tight">Ahmet Özhan ÖZEN</h1>
 
-        <div class="top-6 right-6 flex items-center gap-3">
-          <LangSwitch />
-          <ThemeSwitch />
-        </div>
+        
       </div>
 
       <BioContent class="flex-1" />

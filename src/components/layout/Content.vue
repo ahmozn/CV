@@ -12,12 +12,12 @@ import Projects from '../sections/Projects.vue'
 
 <template>
     <div class="grid gap-6">
-        <Summary />
-        <Education />
-        <JobExperience />
-        <ForeignLanguage />
-        <ExamsResults />
-        <TechnicalSkills />
-        <Projects />
+        <Summary id="summary"/>
+        <Education id="education"/>
+        <JobExperience id="jobExperience"/>
+        <ForeignLanguage id="foreignLanguage"/>
+        <ExamsResults id="examsResults"/>
+        <TechnicalSkills id="technicalSkills"/>
+        <Projects id="projects"/>
     </div>
 </template>
