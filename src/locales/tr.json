@@ -65,10 +65,22 @@
   },
   "technicalSkills":{
     "title":"Teknik Beceriler",
-    "programmingLanguages": "Programlama Dilleri",
-    "frameworks": "Framework'ler",
-    "database": "Veritabanı",
-    "web": "Web"
+    "programmingLanguages":{
+      "title":"Programlama Dilleri",
+      "content":"C#,Python,Kotlin,Java"
+    },
+    "frameworks":{
+      "title":"Framework'ler",
+      "content":"ASP.Net Core,MVC,EF Core"
+    },
+    "database":{
+      "title":"Veritabanı",
+      "content":"MSSQL,PostgreSQL"
+    },
+    "web":{
+      "title":"Web",
+      "content":"HTML,CSS,JavaScript"
+    }
   },
   "projects":{
     "title": "Projeler",

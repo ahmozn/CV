@@ -65,10 +65,22 @@
   },
   "technicalSkills":{
     "title":"Technical Skills",
-    "programmingLanguages": "Programming Languages",
-    "frameworks": "Frameworks",
-    "database": "Databases",
-    "web": "Web"
+    "programmingLanguages":{
+      "title":"Programming Languages",
+      "content":"C#,Python,Kotlin,Java"
+    },
+    "frameworks":{
+      "title":"Frameworks",
+      "content":"ASP.Net Core,MVC,EF Core"
+    },
+    "database":{
+      "title":"Databases",
+      "content":"MSSQL,PostgreSQL"
+    },
+    "web":{
+      "title":"Web",
+      "content":"HTML,CSS,JavaScript"
+    }
   },
   "projects":{
     "title": "Projects",
