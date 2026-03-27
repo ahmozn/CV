@@ -11,11 +11,13 @@ import Projects from '../sections/Projects.vue'
 </script>
 
 <template>
-    <Summary></Summary>
-    <Education></Education>
-    <JobExperience></JobExperience>
-    <ForeignLanguage></ForeignLanguage>
-    <ExamsResults></ExamsResults>
-    <TechnicalSkills></TechnicalSkills>
-    <Projects></Projects>
+    <div class="grid gap-6">
+        <Summary />
+        <Education />
+        <JobExperience />
+        <ForeignLanguage />
+        <ExamsResults />
+        <TechnicalSkills />
+        <Projects />
+    </div>
 </template>
