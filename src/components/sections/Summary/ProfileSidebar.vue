@@ -4,12 +4,12 @@ import SocialLink from './SocialLink.vue';
 </script>
 
 <template>
-  <BaseCard class="h-full flex flex-col">
+  <BaseCard class="h-full flex flex-col pb-2">
     <div class="flex-1 overflow-hidden">
-      <img src="../../../assets/pp.jpg" class="w-full h-full object-cover rounded-xl" />
+      <img src="../../../assets/pp.jpg" class="w-75 md:w-60 aspect-[3/4] object-cover mx-auto block rounded-xl my-2" />
     </div>
 
-    <div class="flex justify-center w-full mt-5 mb-0">
+    <div class="flex justify-center w-full mt-2 mb-2">
       <div class="flex flex-row items-center justify-center gap-4 p-2 
               bg-white/5 backdrop-blur-xl
               border border-white/10 rounded-full 
