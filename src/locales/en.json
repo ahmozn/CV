@@ -44,12 +44,24 @@
   },
   "foreignLanguage":{
     "title":"Foreign Language",
-    "english":"English C1 (EF SET English Certificate 64/100(C1 Advanced))"
+    "english":{
+      "title":"ENGLISH",
+      "level":"B2",
+      "certificate":"EF SET English Certificate 59/100 (B2 Upper Intermediate)"
+    }
   },
   "examsResults":{
     "title":"Exams and Scores",
-    "ales": "ALES 2025/3 – 77,34",
-    "yds": "YDS 2025/2 (English) – 70"
+    "ales": {
+      "title":"ALES",
+      "year":"2025/3",
+      "score":"77,34"
+    },
+    "yds": {
+      "title":"YDS",
+      "year":"2025/2",
+      "score":"70"
+    }
   },
   "technicalSkills":{
     "title":"Technical Skills",
