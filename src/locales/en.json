@@ -51,7 +51,7 @@
     }
   },
   "examsResults":{
-    "title":"Exams and Scores",
+    "title":"Exams and Results",
     "ales": {
       "title":"ALES",
       "year":"2025/3",
@@ -108,6 +108,7 @@
     "foreignLanguage": "Foreign Language",
     "examsResults": "Exams and Results",
     "technicalSkills": "Technical Skills",
-    "projects": "Projects"
+    "projects": "Projects",
+    "downloadCV":"Download CV"
   }
 }
