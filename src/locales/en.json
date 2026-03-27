@@ -91,7 +91,7 @@
       "techs": "HTML, CSS, JavaScript"
     },
     "sau_not":{
-      "sau_not_title": "SAU_NotumGirildiMi",
+      "title": "SAU_NotumGirildiMi",
       "content": "Periodically retrieves data from the university information system and sends automatic notifications to users via Telegram Bot API about exam and assignment grades.",
       "techs": "Python, Telegram Bot API"
     },
