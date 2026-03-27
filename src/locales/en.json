@@ -30,11 +30,15 @@
   "jobExperience":{
     "title": "Job Experience",
     "sampa":{
-      "title": "IT Intern, Sampa Automotive (07.07.2025 – 04.08.2025)",
+      "title": "IT Intern",
+      "company": "SAMPA AUTOMOTIVE",
+      "year":"07.07.2025 – 04.08.2025",
       "content": "Developed an e-commerce web application using ASP.NET Core and MSSQL."
     },
     "cbi":{
-      "title": "IT Intern, Çayeli Bakır İşletmeleri (01.07.2024 – 29.07.2024)",
+      "title": "IT Intern",
+      "company":"CAYELI BAKIR ISLETMELERI",
+      "year":"01.07.2024 – 29.07.2024",
       "content": "Participated in maintenance, installation, and improvement activities of network infrastructure."
     }
   },

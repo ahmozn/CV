@@ -30,11 +30,15 @@
   "jobExperience":{
     "title": "İş Deneyimi",
     "sampa":{
-      "title": "BT Stajyeri, Sampa Otomotiv(07.07.2025 – 04.08.2025)",
-      "content": "ASP.NET Cıre ve MSSQL kullanarak e-ticaret web uygulaması geliştirdi."
+      "title": "BT Stajyeri",
+      "company": "SAMPA OTOMOTİV",
+      "year":"07.07.2025 – 04.08.2025",
+      "content": "ASP.NET Core ve MSSQL kullanarak e-ticaret web uygulaması geliştirdi."
     },
     "cbi":{
-      "title": "IT Stajyeri, Çayeli Bakır İşletmeleri(01.07.2024 – 29.07.2024)",
+      "title": "IT Stajyeri",
+      "company":"ÇAYELİ BAKIR İŞLETMELERİ",
+      "year":"01.07.2024 – 29.07.2024",
       "content": "Network altyapısında bakım, kurulum ve iyileştirme çalışmalarında görev aldı."
     }
   },
