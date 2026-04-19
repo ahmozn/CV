@@ -14,9 +14,7 @@ import ThemeSwitch from '../../ui/ThemeSwitch.vue';
     <div class="md:col-span-8 lg:col-span-9 flex flex-col gap-4">
 
       <div class="flex justify-between items-center px-2">
-        <h1 class="text-3xl font-bold text-white tracking-tight">Ahmet Özhan ÖZEN</h1>
-
-        
+        <h1 class="text-title text-3xl font-bold tracking-tight">Ahmet Özhan ÖZEN</h1>
       </div>
 
       <BioContent class="flex-1" />

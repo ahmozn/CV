@@ -3,8 +3,7 @@ import { ref, onMounted } from 'vue'
 
 const isDark = ref(true)
 
-const toggleTheme = () => {
-  isDark.value = !isDark.value
+const updateTheme = () => {
   const html = document.documentElement
   if (isDark.value) {
     html.classList.add('dark')
@@ -15,16 +14,27 @@ const toggleTheme = () => {
   }
 }
 
+const toggleTheme = () => {
+  isDark.value = !isDark.value
+  updateTheme()
+}
+
 onMounted(() => {
-  isDark.value = localStorage.getItem('theme') === 'dark' || !localStorage.getItem('theme')
-  if (isDark.value) document.documentElement.classList.add('dark')
+  // LocalStorage kontrolü, yoksa sistem tercihine bak (opsiyonel) veya direkt dark başla
+  const savedTheme = localStorage.getItem('theme')
+  if (savedTheme) {
+    isDark.value = savedTheme === 'dark'
+  } else {
+    isDark.value = true // Varsayılan dark
+  }
+  updateTheme()
 })
 </script>
 
 <template>
   <div @click="toggleTheme" 
        class="relative w-18 h-9 rounded-full cursor-pointer p-1 transition-all duration-500
-              bg-white/5 backdrop-blur-xl border border-white/10 shadow-lg select-none">
+              bg-switch border border-border-base shadow-lg select-none overflow-hidden">
     
     <div :class="[
       'absolute top-1/2 w-7 h-7 rounded-full transition-all duration-500 flex items-center justify-center shadow-md transform -translate-y-1/2',

@@ -10,11 +10,11 @@ const bioItems = computed(() => {
 
 <template>
     <BaseCard class="h-full text-left">
-        <h1 class="mb-[2vh] !text-[2em]">{{ t('summary.title') }}</h1>
+        <h1 class="text-title mb-[2vh] !text-[2em]">{{ t('summary.title') }}</h1>
         <ul class="space-y-2">
             <li v-for="(item, index) in bioItems" :key="index" class="flex items-start space-y-3">
                 <span class="mr-2 text-blue-500">→</span>
-                <span>{{ item }}</span>
+                <span class="text-secondary">{{ item }}</span>
             </li>
         </ul>
     </BaseCard>
