@@ -23,7 +23,7 @@ html {
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  
+  -webkit-tap-highlight-color: transparent;
   --main-bg: rgba(0,0,0,0.03);
   --card-bg: rgba(0, 0, 0, 0.03);
   --card-hover: rgba(0, 0, 0, 0.06);
@@ -39,7 +39,6 @@ html {
 }
 
 .dark {
-  /* DARK THEME (Senin Orijinal Yapı) */
   --main-bg: #1e1e1e;
   --card-bg: rgba(255, 255, 255, 0.05);
   --card-hover: rgba(255, 255, 255, 0.1);

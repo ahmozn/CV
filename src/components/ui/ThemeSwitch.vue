@@ -20,12 +20,11 @@ const toggleTheme = () => {
 }
 
 onMounted(() => {
-  // LocalStorage kontrolü, yoksa sistem tercihine bak (opsiyonel) veya direkt dark başla
   const savedTheme = localStorage.getItem('theme')
   if (savedTheme) {
     isDark.value = savedTheme === 'dark'
   } else {
-    isDark.value = true // Varsayılan dark
+    isDark.value = true 
   }
   updateTheme()
 })
@@ -33,11 +32,11 @@ onMounted(() => {
 
 <template>
   <div @click="toggleTheme" 
-       class="relative w-18 h-9 rounded-full cursor-pointer p-1 transition-all duration-500
+       class="select-none relative w-18 h-9 rounded-full cursor-pointer p-1 transition-all duration-500
               bg-switch border border-border-base shadow-lg select-none overflow-hidden">
     
     <div :class="[
-      'absolute top-1/2 w-7 h-7 rounded-full transition-all duration-500 flex items-center justify-center shadow-md transform -translate-y-1/2',
+      'select-none absolute top-1/2 w-7 h-7 rounded-full transition-all duration-500 flex items-center justify-center shadow-md transform -translate-y-1/2',
       isDark ? 'left-[calc(100%-2rem)] bg-blue-500 shadow-blue-500/40' : 'left-1 bg-yellow-500 shadow-yellow-500/40'
     ]">
       <div class="grid place-items-center w-full h-full">
