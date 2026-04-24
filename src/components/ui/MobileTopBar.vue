@@ -5,14 +5,14 @@ import DownloadCV from '../layout/DownloadCV.vue';
 </script>
 
 <template>
-  <nav class="lg:hidden fixed top-5 left-1/2 -translate-x-1/2 z-50 w-[94vw] max-w-md">
-    <div class="grid grid-cols-[auto_1fr_auto] items-center py-2 px-5 gap-2
+  <nav class="lg:hidden fixed top-3 left-1/2 -translate-x-1/2 z-50 w-[96vw] max-w-md">
+    <div class="grid grid-cols-[auto_1fr_auto] items-center py-3 px-3 gap-1
                 bg-white/5 backdrop-blur-xl border border-white/10 rounded-full
                 shadow-[0_8px_32px_rgba(0,0,0,0.3)]">
       
       <div class="flex justify-start"><LangSwitch /></div>
       <div class="flex justify-center px-2">
-        <DownloadCV class="h-10 w-full min-w-[120px] whitespace-nowrap" />
+        <DownloadCV class="h-10 w-full" />
       </div>
       <div class="flex justify-end"><ThemeSwitch /></div>
     </div>

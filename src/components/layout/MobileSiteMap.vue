@@ -49,12 +49,17 @@ onMounted(() => {
 </script>
 
 <template>
-    <aside class="lg:hidden fixed right-4 top-61/100 -translate-y-1/2 z-50 flex flex-col gap-4 items-center">
+    <aside class="lg:hidden fixed bottom-3 left-1/2 -translate-x-1/2 z-50 w-[96vw] max-w-md">
 
-        <div class="flex flex-col gap-2 p-2 bg-white/5 backdrop-blur-xl border border-white/10 rounded-full shadow-2xl">
+        <div class="flex flex-row items-center justify-around p-2 
+                    bg-white/5 backdrop-blur-xl border border-white/10 
+                    rounded-full shadow-2xl overflow-x-auto no-scrollbar gap-1">
+
             <button v-for="item in menuItems" :key="item.id" @click="scrollToSection(item.id)" :class="[
-                'p-3 rounded-full transition-all duration-300 select-none active:scale-75',
-                activeSection === item.id ? 'bg-blue-500/30 text-primary shadow-[0_0_15px_rgba(59,130,246,0.5)]' : 'text-gray-500'
+                'p-3 rounded-full transition-all duration-300 select-none active:scale-75 flex-shrink-0',
+                activeSection === item.id
+                    ? 'bg-blue-500/30 text-primary shadow-[0_0_15px_rgba(59,130,246,0.3)]'
+                    : 'text-gray-500'
             ]">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
@@ -63,9 +68,9 @@ onMounted(() => {
                 </svg>
             </button>
         </div>
-
     </aside>
+
     <div class="lg:hidden">
-        <BackToTop :active-section="activeSection" class="!fixed !bottom-28 !right-6 !z-[60]" />
+        <BackToTop :active-section="activeSection" class="!fixed !bottom-20 !right-2 !z-[60]" />
     </div>
 </template>
