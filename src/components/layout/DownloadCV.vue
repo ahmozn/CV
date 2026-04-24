@@ -16,7 +16,7 @@ const cvName = computed(() => {
     <a 
         :href="cvPath" 
         :download="cvName"
-        class="group flex items-center gap-4 px-4 py-3 rounded-xl bg-blue-500/10 border border-blue-500/20 hover:bg-blue-400 hover:border-blue-400 transition-all duration-300 shadow-lg"
+        class="group flex items-center gap-4 px-4 py-3 rounded-xl bg-blue-500/30 border border-blue-500/20 hover:bg-blue-400 hover:border-blue-400 transition-all duration-300 shadow-lg"
     >
         <div class="flex-shrink-0 text-primary group-hover:text-white transition-colors">
             <svg xmlns="http://www.w3.org/2000/01/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
