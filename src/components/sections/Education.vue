@@ -17,14 +17,12 @@ const educationList = computed(() => {
 });
 </script>
 <template>
-    <BaseCard>
-        <TextTitle>{{ t('education.title') }}</TextTitle>
-        <div class="flex flex-col gap-4">
-            <ItemCard
-                v-for="(edu,index) in educationList"
-                :key="index"
-                v-bind="edu"
-            />
-        </div>
-    </BaseCard>
+    <section>
+        <BaseCard>
+            <TextTitle>{{ t('education.title') }}</TextTitle>
+            <div class="flex flex-col gap-4">
+                <ItemCard v-for="(edu, index) in educationList" :key="index" v-bind="edu" />
+            </div>
+        </BaseCard>
+    </section>
 </template>

@@ -19,15 +19,13 @@ const experienceList = computed(() => {
 </script>
 
 <template>
-    <BaseCard>
-        <TextTitle>{{ t('jobExperience.title') }}</TextTitle>
+    <section>
+        <BaseCard>
+            <TextTitle>{{ t('jobExperience.title') }}</TextTitle>
 
-        <div class="flex flex-col gap-4">
-            <ItemCard 
-                v-for="(job, index) in experienceList" 
-                :key="index"
-                v-bind="job"
-            />
-        </div>
-    </BaseCard>
+            <div class="flex flex-col gap-4">
+                <ItemCard v-for="(job, index) in experienceList" :key="index" v-bind="job" />
+            </div>
+        </BaseCard>
+    </section>
 </template>

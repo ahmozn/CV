@@ -18,14 +18,12 @@ const languages = computed(() => [
 </script>
 
 <template>
-    <BaseCard>
-        <TextTitle>{{ t('foreignLanguage.title') }}</TextTitle>
-        <div class="flex flex-col gap-4">
-            <ItemCard
-                v-for="(lang, index) in languages" 
-                :key="index"
-                v-bind="lang"
-            />
-        </div>
-    </BaseCard>
+    <section>
+        <BaseCard>
+            <TextTitle>{{ t('foreignLanguage.title') }}</TextTitle>
+            <div class="flex flex-col gap-4">
+                <ItemCard v-for="(lang, index) in languages" :key="index" v-bind="lang" />
+            </div>
+        </BaseCard>
+    </section>
 </template>

@@ -20,15 +20,13 @@ const projectList = computed(() => {
 </script>
 
 <template>
-    <BaseCard>
-        <TextTitle>{{ t('projects.title') }}</TextTitle>
+    <section>
+        <BaseCard>
+            <TextTitle>{{ t('projects.title') }}</TextTitle>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <ItemCard
-                v-for="project in projectList" 
-                :key="project.id"
-                v-bind="project"
-            />
-        </div>
-    </BaseCard>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <ItemCard v-for="project in projectList" :key="project.id" v-bind="project" />
+            </div>
+        </BaseCard>
+    </section>
 </template>
