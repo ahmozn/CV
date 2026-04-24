@@ -26,7 +26,7 @@ const getIconName = (name: string) => {
       {{ title }}
     </h3>
 
-    <div class="flex flex-wrap items-center justify-center gap-x-12 gap-y-8 w-full mt-auto mb-auto px-4">
+    <div class="flex flex-wrap items-center justify-center gap-x-2 gap-y-4 w-full mt-auto mb-auto px-4">
       <div v-for="item in items" :key="item" class="flex flex-col items-center gap-3 group/icon min-w-[80px]">
         <div class="relative">
           <img :src="item === 'MSSQL'
