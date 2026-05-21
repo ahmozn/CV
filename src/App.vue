@@ -21,11 +21,25 @@ watch(locale, async () => {
 </script>
 
 <template>
-  <div :class="['min-h-screen']" :style="{ '--lang-key': locale }">
+  <div 
+    :class="['min-h-screen', 'relative']" 
+    :style="{ '--lang-key': locale }"
+  >
+    <div class="fixed top-46/100 left-0 -translate-x-0 md:left-1/10 md:top-0 md:-translate-x-1/2 z-50 pointer-events-none
+            w-[9vw] md:w-[5vw] h-[7vh] md:h-[6vh] flex items-center justify-center
+            bg-card border-r border-t border-b md:border-x md:border-t-0 border-border-base backdrop-blur-md
+            rounded-br-2xl rounded-r-2xl md:rounded-t-none md:rounded-b-2xl shadow-lg">
+      
+  <img 
+    src="/logo.svg" 
+    alt="Logo" 
+    class="p-[7%] vw md:h-14 w-auto transition-all duration-300"
+  />
+</div>
 
     <div class="h-[8vh] lg:h-[10vh]"></div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 items-start mx-auto px-3 lg:px-0">
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-12 items-start mx-auto px-3 lg:px-0 relative z-10">
 
       <MobileTopBar />
 
