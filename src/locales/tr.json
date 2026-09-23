@@ -29,6 +29,12 @@
   },
   "jobExperience":{
     "title": "İş Deneyimi",
+    "avsa":{
+      "title": "Otel Operasyon ve Dijital Dönüşüm Uzmanı",
+      "company": "AVŞA ADASI, BALIKESİR",
+      "year":"27.06.2025 – 07.09.2026",
+      "content": "Otel rezervasyon süreçlerini sanal ortama aktarıp otomatize ederek kullanım kolaylığı sağladı. Müşteri ilişkilerini iyileştirdi."
+    },
     "sampa":{
       "title": "BT Stajyeri",
       "company": "SAMPA OTOMOTİV",

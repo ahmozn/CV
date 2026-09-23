@@ -29,6 +29,12 @@
   },
   "jobExperience":{
     "title": "Job Experience",
+    "avsa":{
+      "title": "Hospitality Operations & Digitalization Specialist",
+      "company": "AVŞA ISLAND, BALIKESIR",
+      "year":"27.06.2025 – 07.09.2026",
+      "content": "Automated and transitioned reservation processes to digital systems, significantly improving usability and guest relations."
+    },
     "sampa":{
       "title": "IT Intern",
       "company": "SAMPA AUTOMOTIVE",

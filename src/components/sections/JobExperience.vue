@@ -6,7 +6,7 @@ import { useI18n } from '../../composables/useI18n';
 import TextTitle from '../ui/TextTitle.vue';
 
 const { t } = useI18n()
-const experienceKeys = ['sampa', 'cbi'];
+const experienceKeys = ['avsa','sampa', 'cbi'];
 
 const experienceList = computed(() => {
     return experienceKeys.map(key => ({
