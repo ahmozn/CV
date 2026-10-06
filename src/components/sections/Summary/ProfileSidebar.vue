@@ -18,7 +18,7 @@ import SocialLink from './SocialLink.vue';
 
         <SocialLink iconName="linkedin" href="https://www.linkedin.com/in/ahmet-%C3%B6zhan-%C3%B6zen-389074224/" />
         <SocialLink iconName="github" href="https://github.com/ahmozn" />
-        <SocialLink iconName="email" href="contact@ozhano.com" />
+        <SocialLink iconName="email" href="ozhano.contact@gmail.com" />
 
       </div>
     </div>
